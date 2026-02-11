@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X-Booking | Quản lý Kế hoạch Logistics</title>
+
+  <!-- Google Fonts: Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Montserrat', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              green: '#1a8943', // Deep green from logo description
+              yellow: '#fbc02d', // Accent yellow
+              light: '#f3f5f8', // Content background
+            }
+          },
+          // Material Design 3 Typography Scale
+          fontSize: {
+              'xs': ['12px', { lineHeight: '16px', letterSpacing: '0.4px' }],   // Small label
+              'sm': ['14px', { lineHeight: '20px', letterSpacing: '0.25px' }],  // Body small
+              'base': ['14px', { lineHeight: '20px', letterSpacing: '0px' }],   // Body default
+              'lg': ['18px', { lineHeight: '28px', letterSpacing: '0px' }],     // Body large
+              'xl': ['20px', { lineHeight: '28px', letterSpacing: '0px' }],     // Title small
+              '2xl': ['24px', { lineHeight: '32px', letterSpacing: '0px' }],    // Title medium
+              '3xl': ['30px', { lineHeight: '36px', letterSpacing: '0px' }],    // Title large
+              '4xl': ['36px', { lineHeight: '44px', letterSpacing: '0px' }],    // Display small
+              '5xl': ['48px', { lineHeight: '56px', letterSpacing: '-0.25px' }], // Display medium
+            }
+
+        },
+      },
+    }
+  </script>
+  <style>
+    /* Custom Scrollbar for Enterprise feel */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8; 
+    }
+  </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom": "https://esm.sh/react-dom@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "recharts": "https://esm.sh/recharts@2.12.0?external=react,react-dom"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
