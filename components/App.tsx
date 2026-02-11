@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Sidebar from './Sidebar';
-import Header from './Header';
-import StatsCards from './StatsCards';
-import BookingTable from './BookingTable';
-import BookingDetail from './BookingDetail';
-import CreateBooking from './CreateBooking';
+import Sidebar from './components/Sidebar';
+import Header from './components/Header';
+import StatsCards from './components/StatsCards';
+import BookingTable from './components/BookingTable';
+import BookingDetail from './components/BookingDetail';
+import CreateBooking from './components/CreateBooking';
 import Dashboard from './Dashboard';
 import { Search, Plus, Filter, Download, ChevronDown, Briefcase, Map } from 'lucide-react';
 import { BookingDetail as BookingDetailType } from '../types';
