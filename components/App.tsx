@@ -5,7 +5,7 @@ import StatsCards from './components/StatsCards';
 import BookingTable from './components/BookingTable';
 import BookingDetail from './components/BookingDetail';
 import CreateBooking from './components/CreateBooking';
-import Dashboard from './Dashboard';
+import Dashboard from './components/Dashboard';
 import { Search, Plus, Filter, Download, ChevronDown, Briefcase, Map } from 'lucide-react';
 import { BookingDetail as BookingDetailType } from '../types';
 
