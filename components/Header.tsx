@@ -11,7 +11,7 @@ const Header: React.FC = () => {
 
       {/* Right Actions */}
       <div className="flex items-center gap-6 ml-auto">
-        <button className="relative p-2 text-gray-400 hover:bg-gray-50 rounded-full transition-colors">
+        <button title="Thông báo" className="relative p-2 text-gray-400 hover:bg-gray-50 rounded-full transition-colors">
           <Bell size={20} />
           <span className="absolute top-2 right-2 w-2 h-2 bg-red-500 rounded-full border-2 border-white"></span>
         </button>
@@ -19,9 +19,9 @@ const Header: React.FC = () => {
         <div className="h-8 w-px bg-gray-200 mx-2"></div>
 
         <div className="flex items-center gap-3 cursor-pointer p-1.5 pr-3 rounded-full hover:bg-gray-50 transition-colors border border-transparent hover:border-gray-100">
-          <img 
-            src="https://picsum.photos/100/100" 
-            alt="User Avatar" 
+          <img
+            src="https://picsum.photos/100/100"
+            alt="User Avatar"
             className="w-9 h-9 rounded-full object-cover border border-gray-200"
           />
           <div className="text-sm hidden md:block">
